@@ -1,0 +1,7 @@
+<h1> Game of odd and even</h1> 
+
+<app-gamecontrol (startEmitter)="onGame($event)"></app-gamecontrol>
+
+<app-even *ngFor="let even of evenNumber" [number]="even"></app-even>
+<app-odd *ngFor="let odd of oddNumber" [number]="odd"></app-odd>
+  
